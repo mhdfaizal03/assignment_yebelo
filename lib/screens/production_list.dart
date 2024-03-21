@@ -185,6 +185,7 @@ class _ProductListPageState extends State<ProductListPage> {
                   product.quantity = quantity;
                 });
                 print('Product: ${product.name}, Quantity: $quantity');
+                quantityController.clear();
               },
               child: const Text('OK'),
             ),
